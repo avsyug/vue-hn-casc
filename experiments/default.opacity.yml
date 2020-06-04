@@ -4,5 +4,6 @@ type: experiment
 name: opacity
 labels: backward-compatible-configuration
 flag: default.opacity
-availableValues: []
-value: []
+availableValues:
+  - 10
+value: 10
