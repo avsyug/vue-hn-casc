@@ -1,0 +1,8 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5ed9581a4ba58452a74afe4e
+type: experiment
+name: opacity
+labels: backward-compatible-configuration
+flag: default.opacity
+availableValues: []
+value: []
