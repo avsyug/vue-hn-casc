@@ -6,4 +6,5 @@ labels: backward-compatible-configuration
 flag: default.opacity
 availableValues:
   - 10
+  - 0.7
 value: 10
