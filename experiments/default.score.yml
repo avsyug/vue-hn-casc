@@ -5,5 +5,5 @@ name: score
 flag: default.score
 platforms:
   - name: Browser
-    value: false
+    value: true
 value: false
