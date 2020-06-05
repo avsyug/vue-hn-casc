@@ -3,4 +3,7 @@
 type: experiment
 name: score
 flag: default.score
+platforms:
+  - name: Browser
+    value: false
 value: false
