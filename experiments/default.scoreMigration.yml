@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5eda5d5fc147434edf79ff74
+type: experiment
+name: score migration
+flag: default.scoreMigration
+value: false
