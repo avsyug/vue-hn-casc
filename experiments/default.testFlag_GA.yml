@@ -1,5 +1,6 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: test flag ga
+labels: Canary-deploy
 flag: default.testFlag_GA
 value: false
