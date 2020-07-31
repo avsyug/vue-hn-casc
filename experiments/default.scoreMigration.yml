@@ -1,9 +1,0 @@
-# This file was edited by Cloudbees Feature Flags
-type: experiment
-name: score migration
-flag: default.scoreMigration
-conditions:
-  - group:
-      name: Internal-Testing
-    value: true
-value: false
