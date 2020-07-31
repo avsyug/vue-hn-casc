@@ -5,4 +5,3 @@ flag: default.dbName
 availableValues:
   - DB_TWO
   - HN_ONE
-value: DB_TWO
