@@ -2,4 +2,4 @@
 type: experiment
 name: article display
 flag: default.articleDisplay
-value: true
+value: false
