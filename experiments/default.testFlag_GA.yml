@@ -1,9 +1,0 @@
-# This file was edited by Cloudbees Feature Flags
-type: experiment
-name: test flag ga
-flag: default.testFlag_GA
-conditions:
-  - group:
-      name: Internal-Testing
-    value: true
-value: false
