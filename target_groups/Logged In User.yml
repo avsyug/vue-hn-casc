@@ -3,3 +3,5 @@ name: Logged In User
 conditions:
   - operator: is-true
     property: isLoggedIn
+  - operator: is-true
+    property: isBetaUser
