@@ -1,5 +1,5 @@
 type: target-group
 name: Logged In User
 conditions:
-  - operator: is-false
+  - operator: is-true
     property: isLoggedIn
