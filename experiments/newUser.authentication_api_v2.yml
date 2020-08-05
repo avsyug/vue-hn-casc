@@ -1,0 +1,5 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+name: authentication api v 2
+flag: newUser.authentication_api_v2
+value: false
