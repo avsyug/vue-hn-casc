@@ -3,6 +3,11 @@ type: experiment
 name: extra logging
 flag: newUser.extra_logging
 conditions:
+  - group:
+      name: Beta User
+    value:
+      - percentage: 50
+        option: true
   - property:
       name: userID
       operator: in-array
