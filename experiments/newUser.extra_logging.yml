@@ -2,4 +2,11 @@
 type: experiment
 name: extra logging
 flag: newUser.extra_logging
+conditions:
+  - property:
+      name: userID
+      operator: in-array
+      operand:
+        - test
+    value: true
 value: false
