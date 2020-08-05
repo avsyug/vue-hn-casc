@@ -1,0 +1,7 @@
+type: target-group
+name: Customer-Initech
+conditions:
+  - operator: in-array
+    property: userID
+    operand:
+      - initech
