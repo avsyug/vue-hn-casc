@@ -1,0 +1,7 @@
+type: target-group
+name: Customer-Globex
+conditions:
+  - operator: in-array
+    property: userID
+    operand:
+      - globex
