@@ -7,6 +7,9 @@ conditions:
       name: userID
       operator: in-array
       operand:
-        - test
+        - ee562ed0125d7122254a1eb32
+        - ev563ed0125d7122254a1eb45
+        - eb581ed0521d7122254a1xj46
+        - de562ed0125d7122254a1eb77
     value: true
 value: false
