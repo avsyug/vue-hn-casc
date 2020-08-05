@@ -2,4 +2,18 @@
 type: experiment
 name: authentication api v 2
 flag: newUser.authentication_api_v2
+conditions:
+  - group:
+      name:
+        - Customer-Globex
+        - Customer-SacredH
+        - Customer-Initech
+    value:
+      - percentage: 33
+        option: true
+  - group:
+      name:
+        - Internal-Testing
+        - Preview Customer
+    value: true
 value: false
