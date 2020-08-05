@@ -9,7 +9,7 @@ conditions:
         - Customer-SacredH
         - Customer-Initech
     value:
-      - percentage: 33
+      - percentage: 67
         option: true
   - group:
       name:
