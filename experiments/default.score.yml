@@ -2,4 +2,10 @@
 type: experiment
 name: score
 flag: default.score
+conditions:
+  - property:
+      name: Email
+      operator: regex
+      operand: '*@cloudbees.com'
+    value: true
 value: false
