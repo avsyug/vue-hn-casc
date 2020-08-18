@@ -1,0 +1,5 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+name: score
+flag: default.score
+value: false
