@@ -1,6 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: score
+enabled: false
 flag: default.score
 conditions:
   - property:
