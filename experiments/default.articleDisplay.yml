@@ -2,8 +2,4 @@
 type: experiment
 name: article display
 flag: default.articleDisplay
-conditions:
-  - group:
-      name: Internal-Testing
-    value: true
 value: false
