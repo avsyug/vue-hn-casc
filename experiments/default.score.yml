@@ -1,5 +1,4 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
-labels: archived
 flag: default.score
 value: true
