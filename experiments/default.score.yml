@@ -8,4 +8,4 @@ conditions:
       flag: default.scoreMigration
       value: 'true'
     value: true
-value: false
+value: true
