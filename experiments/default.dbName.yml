@@ -1,6 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: db name
+description: 'Experiment: db name'
 flag: default.dbName
 availableValues:
   - DB_TWO

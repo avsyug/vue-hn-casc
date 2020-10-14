@@ -1,5 +1,6 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: article display
+description: 'Experiment: article display'
 flag: default.articleDisplay
 value: false
