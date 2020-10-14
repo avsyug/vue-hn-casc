@@ -4,9 +4,8 @@ name: score
 description: 'Experiment: score'
 flag: default.score
 conditions:
-  - group:
-      name:
-        - Beta User
-        - Internal-Testing
+  - dependency:
+      flag: default.scoreMigration
+      value: 'true'
     value: true
 value: false
