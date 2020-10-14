@@ -3,7 +3,4 @@ type: experiment
 name: score
 description: 'Experiment: score'
 flag: default.score
-platforms:
-  - name: Python
-    value: false
 value: true
