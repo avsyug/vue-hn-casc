@@ -6,9 +6,4 @@ flag: default.score
 platforms:
   - name: Python
     value: true
-conditions:
-  - dependency:
-      flag: default.scoreMigration
-      value: 'true'
-    value: true
-value: true
+value: false
