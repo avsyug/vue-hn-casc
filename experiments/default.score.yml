@@ -4,5 +4,5 @@ name: score
 description: 'Experiment: score'
 flag: default.score
 value:
-  - percentage: 20
+  - percentage: 30
     option: true
