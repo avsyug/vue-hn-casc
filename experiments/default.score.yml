@@ -3,4 +3,9 @@ type: experiment
 name: score
 description: 'Experiment: score'
 flag: default.score
+conditions:
+  - dependency:
+      flag: default.testFlag
+      value: 'true'
+    value: true
 value: false
