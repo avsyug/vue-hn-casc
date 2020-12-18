@@ -3,4 +3,4 @@ type: experiment
 name: score
 description: 'Experiment: score'
 flag: default.score
-value: false
+value: true
