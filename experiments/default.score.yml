@@ -3,4 +3,9 @@ type: experiment
 name: score
 description: 'Experiment: score'
 flag: default.score
-value: true
+conditions:
+  - property:
+      name: isLoggedIn
+      operator: is-true
+    value: true
+value: false
