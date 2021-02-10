@@ -3,8 +3,4 @@ type: experiment
 name: score
 description: 'Experiment: score'
 flag: default.score
-conditions:
-  - group:
-      name: Internal-Testing
-    value: true
-value: false
+value: true
