@@ -4,5 +4,9 @@ name: score
 description: 'Experiment: score'
 flag: default.score
 conditions:
-  - value: false
+  - property:
+      name: Country
+      operator: regex
+      operand: sadf
+    value: true
 value: false
