@@ -8,5 +8,5 @@ conditions:
       name: Country
       operator: regex
       operand: sadf
-    value: true
+    value: false
 value: false
