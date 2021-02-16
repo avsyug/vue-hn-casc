@@ -3,10 +3,4 @@ type: experiment
 name: score
 description: 'Experiment: score'
 flag: default.score
-conditions:
-  - property:
-      name: Country
-      operator: regex
-      operand: lkdng
-    value: true
 value: false
