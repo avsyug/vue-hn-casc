@@ -2,5 +2,6 @@
 type: experiment
 name: score
 description: 'Experiment: score'
+enabled: false
 flag: default.score
-value: false
+value: true
