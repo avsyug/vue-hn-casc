@@ -1,5 +1,6 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: score
+description: 'Experiment: score'
 flag: default.score
 value: true

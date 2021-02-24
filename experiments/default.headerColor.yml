@@ -1,6 +1,7 @@
 # This file was edited by Cloudbees Feature Flags
 type: experiment
 name: header color
+description: 'Experiment: header color'
 flag: default.headerColor
 availableValues:
   - is-primary

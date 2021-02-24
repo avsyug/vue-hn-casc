@@ -1,0 +1,9 @@
+type: target-group
+name: Pilot group
+conditions:
+  - operator: is-true
+    property: isBetaUser
+  - operator: in-array
+    property: warehouseID
+    operand:
+      - '1'
