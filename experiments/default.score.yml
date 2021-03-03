@@ -4,8 +4,8 @@ name: score
 description: 'Experiment: score'
 flag: default.score
 conditions:
-  - property:
-      name: isLoggedIn
-      operator: is-true
+  - version:
+      operator: semver-gte
+      semver: '2.0'
     value: true
 value: false
