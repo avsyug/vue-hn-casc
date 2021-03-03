@@ -4,8 +4,8 @@ name: score
 description: 'Experiment: score'
 flag: default.score
 conditions:
-  - dependency:
-      flag: newUser.extra_logging
-      value: 'true'
+  - property:
+      name: isLoggedIn
+      operator: is-true
     value: true
 value: false
