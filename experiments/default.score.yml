@@ -7,5 +7,7 @@ conditions:
   - version:
       operator: semver-gte
       semver: '2.0'
+    group:
+      name: Beta User
     value: true
 value: false
