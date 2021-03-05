@@ -4,4 +4,4 @@ name: score
 description: 'Experiment: score'
 labels: Canary-deploy
 flag: default.score
-value: true
+value: false
