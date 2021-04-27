@@ -5,8 +5,8 @@ description: 'Experiment: score'
 labels: Canary-deploy
 flag: default.score
 conditions:
-  - property:
-      name: isLoggedIn
-      operator: is-true
+  - dependency:
+      flag: default.testFlag
+      value: 'true'
     value: true
 value: false
