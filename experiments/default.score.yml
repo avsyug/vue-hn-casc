@@ -4,4 +4,8 @@ name: score
 description: 'Experiment: score'
 labels: Canary-deploy
 flag: default.score
+conditions:
+  - group:
+      name: Internal-Testing
+    value: true
 value: false
