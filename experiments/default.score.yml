@@ -3,6 +3,7 @@ type: experiment
 name: score
 description: 'Experiment: score'
 labels: Canary-deploy
+enabled: false
 flag: default.score
 value:
   - percentage: 50
