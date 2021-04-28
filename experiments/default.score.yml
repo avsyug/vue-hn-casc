@@ -4,9 +4,4 @@ name: score
 description: 'Experiment: score'
 labels: Canary-deploy
 flag: default.score
-conditions:
-  - dependency:
-      flag: default.testFlag
-      value: 'true'
-    value: true
 value: false
