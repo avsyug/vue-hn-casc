@@ -8,7 +8,9 @@ conditions:
   - group:
       name: Internal-Testing
     value: true
-  - group:
-      name: Beta User
+  - property:
+      name: Email
+      operator: regex
+      operand: '*@cloudbees.com'
     value: true
 value: false
