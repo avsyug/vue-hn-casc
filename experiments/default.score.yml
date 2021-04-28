@@ -8,4 +8,7 @@ conditions:
   - group:
       name: Internal-Testing
     value: true
+  - group:
+      name: Beta User
+    value: true
 value: false
