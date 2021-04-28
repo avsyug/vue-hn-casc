@@ -4,13 +4,6 @@ name: score
 description: 'Experiment: score'
 labels: Canary-deploy
 flag: default.score
-conditions:
-  - group:
-      name: Internal-Testing
-    value: true
-  - property:
-      name: Email
-      operator: regex
-      operand: '*@cloudbees.com'
-    value: true
-value: false
+value:
+  - percentage: 10
+    option: true
