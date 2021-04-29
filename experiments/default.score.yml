@@ -5,5 +5,5 @@ description: 'Experiment: score'
 labels: Canary-deploy
 flag: default.score
 value:
-  - percentage: 50
+  - percentage: 10
     option: true
