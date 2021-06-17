@@ -1,6 +1,7 @@
-# This file was edited by Cloudbees Feature Flags
+# This file was edited by Cloudbees Feature Management
 type: experiment
-labels: archived
+labels:
+  - archived
 enabled: false
 flag: default.testFlag
 value: false

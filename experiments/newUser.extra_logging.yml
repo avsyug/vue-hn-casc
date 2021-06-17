@@ -1,6 +1,7 @@
-# This file was edited by Cloudbees Feature Flags
+# This file was edited by Cloudbees Feature Management
 type: experiment
-labels: Canary-deploy
+labels:
+  - Canary-deploy
 enabled: false
 flag: newUser.extra_logging
 value: false
