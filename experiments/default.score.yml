@@ -6,8 +6,7 @@ labels:
   - Canary-deploy
 flag: default.score
 conditions:
-  - property:
-      name: isBetaUser
-      operator: is-true
+  - group:
+      name: Beta User
     value: true
 value: false
