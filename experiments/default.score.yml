@@ -6,6 +6,13 @@ labels:
   - Canary-deploy
 flag: default.score
 conditions:
+  - property:
+      name: Country
+      operator: in-array
+      operand: ''
+    value:
+      - percentage: 5
+        option: true
   - group:
       name: Beta User
     value: true
