@@ -11,7 +11,7 @@ conditions:
       operator: in-array
       operand: ''
     value:
-      - percentage: 25
+      - percentage: 50
         option: true
   - group:
       name: Beta User
