@@ -1,0 +1,16 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+enabled: false
+flag: frontend.membership
+availableValues:
+  - Silver
+  - Gold
+  - Bronze
+conditions:
+  - property:
+      name: Country
+      operator: in-array
+      operand:
+        - USA
+    value: Gold
+value: Bronze
