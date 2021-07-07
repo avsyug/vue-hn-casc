@@ -6,9 +6,7 @@ labels:
   - Canary-deploy
 flag: default.score
 conditions:
-  - property:
-      name: Email
-      operator: regex
-      operand: '*@cloudbees.com'
+  - group:
+      name: Beta User
     value: true
 value: false
