@@ -4,6 +4,7 @@ name: score
 description: 'Experiment: score'
 labels:
   - Canary-deploy
+enabled: false
 flag: default.score
 conditions:
   - group:
