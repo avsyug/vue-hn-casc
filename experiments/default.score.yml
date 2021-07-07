@@ -5,6 +5,14 @@ description: 'Experiment: score'
 labels:
   - Canary-deploy
 flag: default.score
-value:
-  - percentage: 20
-    option: true
+conditions:
+  - group:
+      name: Beta User
+    value:
+      - from: 2021-07-07T21:53:21.649Z
+        percentage: 0
+        option: true
+      - from: 2021-07-14T04:00:00.000Z
+        percentage: 100
+        option: true
+value: false
