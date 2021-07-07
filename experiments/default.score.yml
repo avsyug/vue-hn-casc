@@ -6,8 +6,9 @@ labels:
   - Canary-deploy
 flag: default.score
 conditions:
-  - group:
-      name: Beta User
+  - dependency:
+      flag: frontend.membership
+      value: Bronze
     value:
       - from: 2021-07-07T21:53:21.649Z
         percentage: 0
