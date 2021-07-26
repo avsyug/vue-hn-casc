@@ -8,4 +8,4 @@ flag: default.score
 platforms:
   - name: Python
     value: false
-value: false
+value: true
