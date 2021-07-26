@@ -8,4 +8,9 @@ flag: default.score
 platforms:
   - name: Python
     value: false
-value: true
+conditions:
+  - dependency:
+      flag: default.testFlag_GA
+      value: 'true'
+    value: true
+value: false
