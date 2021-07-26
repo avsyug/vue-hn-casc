@@ -8,10 +8,4 @@ flag: default.score
 platforms:
   - name: Python
     value: false
-conditions:
-  - property:
-      name: Email
-      operator: regex
-      operand: '*@cloudbees.com'
-    value: true
-value: false
+value: true
