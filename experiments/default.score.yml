@@ -10,7 +10,8 @@ platforms:
     value: false
 conditions:
   - property:
-      name: isBetaUser
-      operator: is-true
+      name: Email
+      operator: regex
+      operand: '*@cloudbees.com'
     value: true
 value: false
