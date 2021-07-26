@@ -8,6 +8,4 @@ flag: default.score
 platforms:
   - name: Python
     value: false
-value:
-  - percentage: 30
-    option: true
+value: false
