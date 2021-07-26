@@ -8,4 +8,9 @@ flag: default.score
 platforms:
   - name: Python
     value: false
+conditions:
+  - property:
+      name: isBetaUser
+      operator: is-true
+    value: true
 value: false
