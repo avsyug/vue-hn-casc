@@ -9,5 +9,5 @@ platforms:
   - name: Python
     value: false
 value:
-  - percentage: 10
+  - percentage: 30
     option: true
