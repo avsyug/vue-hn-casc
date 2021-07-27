@@ -5,6 +5,11 @@ description: 'Experiment: score'
 labels:
   - Canary-deploy
 flag: default.score
-value:
-  - percentage: 20
-    option: true
+conditions:
+  - property:
+      name: Country
+      operator: in-array
+      operand:
+        - USA
+    value: true
+value: false
