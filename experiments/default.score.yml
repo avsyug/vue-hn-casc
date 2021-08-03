@@ -5,4 +5,10 @@ description: 'Experiment: score'
 labels:
   - Canary-deploy
 flag: default.score
+conditions:
+  - group:
+      name:
+        - Customer-Globex
+        - Customer-Initech
+    value: true
 value: false
