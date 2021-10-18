@@ -6,7 +6,8 @@ labels:
   - Canary-deploy
 flag: default.score
 conditions:
-  - group:
-      name: Internal-Testing
+  - property:
+      name: isLoggedIn
+      operator: is-true
     value: true
 value: false
