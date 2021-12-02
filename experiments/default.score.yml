@@ -7,6 +7,6 @@ labels:
 flag: default.score
 conditions:
   - group:
-      name: Beta User
+      name: Internal-Testing
     value: true
 value: false
