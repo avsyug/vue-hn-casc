@@ -5,4 +5,8 @@ description: 'Experiment: score'
 labels:
   - Canary-deploy
 flag: default.score
+conditions:
+  - group:
+      name: Beta User
+    value: true
 value: false
