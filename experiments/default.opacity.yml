@@ -2,4 +2,9 @@
 type: experiment
 enabled: false
 flag: default.opacity
-availableValues: []
+availableValues:
+  - .nan
+conditions:
+  - group:
+      name: Logged In User
+    value: .nan
