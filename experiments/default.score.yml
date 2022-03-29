@@ -6,8 +6,11 @@ labels:
   - Canary-deploy
 flag: default.score
 conditions:
-  - version:
-      operator: semver-eq
-      semver: 1.0.0
-    value: false
-value: true
+  - property:
+      name: Email
+      operator: in-array
+      operand:
+        - greg@gmail.com
+        - cari@gmail.com
+    value: true
+value: false
