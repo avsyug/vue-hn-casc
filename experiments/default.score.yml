@@ -5,4 +5,9 @@ description: 'Experiment: score'
 labels:
   - Canary-deploy
 flag: default.score
+conditions:
+  - version:
+      operator: semver-eq
+      semver: 1.0.0
+    value: false
 value: true
