@@ -5,12 +5,4 @@ description: 'Experiment: score'
 labels:
   - Canary-deploy
 flag: default.score
-conditions:
-  - property:
-      name: Email
-      operator: in-array
-      operand:
-        - greg@gmail.com
-        - cari@gmail.com
-    value: true
 value: false
