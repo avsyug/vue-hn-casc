@@ -5,9 +5,6 @@ description: 'Experiment: score'
 labels:
   - Canary-deploy
 flag: default.score
-platforms:
-  - name: Python
-    value: false
 conditions:
   - value: false
   - property:
