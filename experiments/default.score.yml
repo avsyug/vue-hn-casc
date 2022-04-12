@@ -6,6 +6,7 @@ labels:
   - Canary-deploy
 flag: default.score
 conditions:
+  - value: false
   - property:
       name: Email
       operator: in-array
