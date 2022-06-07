@@ -1,0 +1,7 @@
+type: target-group
+name: Test 2
+conditions:
+  - operator: in-array
+    property: geoID
+    operand:
+      - '2'
