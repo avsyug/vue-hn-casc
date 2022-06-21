@@ -1,0 +1,14 @@
+type: target-group
+name: Logged In User
+conditions:
+  - operator: in-array
+    property: geoID
+    operand:
+      - Lalalalalala
+      - alalalalala
+      - alal
+      - lalalala
+      - alalallaal
+      - alallalal
+  - operator: is-false
+    property: isLoggedIn
