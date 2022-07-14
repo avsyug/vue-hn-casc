@@ -1,4 +1,6 @@
 # This file was edited by CloudBees Feature Management
 type: experiment
+labels:
+  - Test prod label
 flag: cloningFlag
 value: false
