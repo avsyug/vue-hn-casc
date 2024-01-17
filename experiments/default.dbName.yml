@@ -6,4 +6,5 @@ flag: default.dbName
 availableValues:
   - Test
   - HN_ONE
+  - hello
 value: Test
